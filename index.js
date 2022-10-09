@@ -1,85 +1,8 @@
-const DATA = [
-{
-    id: "Cat.2004",
-    profile_picture: "https://source.unsplash.com/random/200x200?sig=1",
-    ellipsis_icon: "/images/svg-ellipsis.png",
-    location: "Huston, Texas - United States",
-    main_image: "/images/cat-1.jpg",
-    like_icon: "/images/svg-heart-black.png",
-    like_icon_two: "/images/svg-heart-white.png",
-    comms_icon: "/images/svg-comm.png",
-    sharing_icon: "/images/svg-share.png",
-    favorite_icon: "/images/svg-favorite.png",
-    likes_count: "14",
-        ramdom_comment: [
-        "Ohhhhh what a cat <3", 
-        "Prettyyyy",
-        "Can I get your phone number",
-        "Check your DM honey jeje",
-    ]
-},
-{
-    id: "Cat.132",
-    profile_picture: "https://source.unsplash.com/random/200x200?sig=2",
-    ellipsis_icon: "/images/svg-ellipsis.png",
-    location: "Arlington, Texas - United States",
-    main_image: "https://source.unsplash.com/random/800x800?sig=3",
-    like_icon: "/images/svg-heart-black.png",
-    like_icon_two: "/images/svg-heart-white.png",
-    comms_icon: "/images/svg-comm.png",
-    sharing_icon: "/images/svg-share.png",
-    favorite_icon: "/images/svg-favorite.png",
-    likes_count: "43",
-    ramdom_comment: [
-        "Ohhhhh what a cat <3", 
-        "Prettyyyy",
-        "Can I get your phone number",
-        "Check your DM honey jeje",
-    ]
-},
-{
-    id: "Cat.44",
-    profile_picture: "/images/cat-3.jpg",
-    ellipsis_icon: "/images/svg-ellipsis.png",
-    location: "Miami, Florida - United States",
-    main_image: "/images/cat-3.jpg",
-    like_icon: "/images/svg-heart-black.png",
-    like_icon_two: "/images/svg-heart-white.png",
-    comms_icon: "/images/svg-comm.png",
-    sharing_icon: "/images/svg-share.png",
-    favorite_icon: "/images/svg-favorite.png",
-    likes_count: "369",
-    ramdom_comment: [
-        "Ohhhhh what a cat <3", 
-        "Prettyyyy",
-        "Can I get your phone number",
-        "Check your DM honey jeje",
-    ]
-},
-{
-    id: "Cat.689",
-    profile_picture: "/images/cat-4.jpg",
-    ellipsis_icon: "/images/svg-ellipsis.png",
-    location: "Orlando, Florida - United States",
-    main_image: "/images/cat-4.jpg",
-    like_icon: "/images/svg-heart-black.png",
-    like_icon_two: "/images/svg-heart-white.png",
-    comms_icon: "/images/svg-comm.png",
-    sharing_icon: "/images/svg-share.png",
-    favorite_icon: "/images/svg-favorite.png",
-    likes_count: "78",
-    ramdom_comment: [
-        "Ohhhhh what a cat <3", 
-        "Prettyyyy",
-        "Can I get your phone number",
-        "Check your DM honey jeje",
-    ]
-}
-]
+import data from './data.json' assert { type: 'json' };
 
 const container = document.querySelector("#item-list")
 
-DATA.map(el => {
+data.map(el => {
     const element = /* html */`
     <div class="hero__main">
         <div class="hero__main--profile">
@@ -96,17 +19,17 @@ DATA.map(el => {
         </div>
         <div class="hero__main--icons">
             <div class="hero__main--icons--1">
-                <img src="${el.like_icon}" alt="">
-                <img src="${el.comms_icon}" alt="">
-                <img src="${el.sharing_icon}" alt="">
+                <img src="/images/svg-heart-black.png" alt="">
+                <img src="/images/svg-comm.png" alt="">
+                <img src="/images/svg-share.png" alt="">
             </div>
             <div class="hero__main--icons--2">
-                <img src="${el.favorite_icon}" alt="">
+                <img src="/images/svg-favorite.png" alt="">
             </div>
         </div>
         <div class="hero__main--comms">
             <p>${el.likes_count}</p>
-            <p>${el.ramdom_comment}</p>
+            <p>${el.random_comment}</p>
         </div>
     </div>`;
     
