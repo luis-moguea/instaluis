@@ -1,37 +1,37 @@
 [
   {
     "id": "Cat.2004",
-    "profile_picture": "https://source.unsplash.com/random/200x200?sig=1",
+    "profile_picture": "https://source.unsplash.com/random/50x50?sig=1",
     "ellipsis_icon": "/images/svg-ellipsis.png",
     "location": "Huston, Texas - United States",
-    "main_image": "/images/cat-1.jpg",
+    "main_image": "https://source.unsplash.com/random/300x400?sig=4",
     "likes_count": "14",
     "random_comment": "Ohhhhh what a cat <3"
   },
   {
     "id": "Cat.132",
-    "profile_picture": "https://source.unsplash.com/random/200x200?sig=2",
+    "profile_picture": "https://source.unsplash.com/random/50x50?sig=2",
     "ellipsis_icon": "/images/svg-ellipsis.png",
     "location": "Arlington, Texas - United States",
-    "main_image": "https://source.unsplash.com/random/800x800?sig=3",
+    "main_image": "https://source.unsplash.com/random/300x400?sig=3",
     "likes_count": "43",
     "random_comment": "Ohhhhh what a cat <3"
   },
   {
     "id": "Cat.44",
-    "profile_picture": "/images/cat-3.jpg",
+    "profile_picture": "https://source.unsplash.com/random/50x50?sig=5",
     "ellipsis_icon": "/images/svg-ellipsis.png",
     "location": "Miami, Florida - United States",
-    "main_image": "/images/cat-3.jpg",
+    "main_image": "https://source.unsplash.com/random/300x400?sig=6",
     "likes_count": "369",
     "random_comment": "Ohhhhh what a cat <3"
   },
   {
     "id": "Cat.689",
-    "profile_picture": "/images/cat-4.jpg",
+    "profile_picture": "https://source.unsplash.com/random/50x50?sig=7",
     "ellipsis_icon": "/images/svg-ellipsis.png",
     "location": "Orlando, Florida - United States",
-    "main_image": "/images/cat-4.jpg",
+    "main_image": "https://source.unsplash.com/random/300x400?sig=8",
     "likes_count": "78",
     "random_comment": "Ohhhhh what a cat <3"
   }

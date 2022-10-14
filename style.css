@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.hero {
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__main {
+    border: solid 1px;
+    border-color: #808080;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.hero__main--profile {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.hero__main--profile--img {
+    display: flex;
+}
+
+.hero__main--profile--img-1 {
+    border-radius: 25px;
+    margin-right: 8px;
+}
+
+.hero__main--icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.50em 1em;
+
+}
+
+.hero__main--comms {
+    padding: 1em;
+}
+
+.hero__main--icons--1, .hero__main--icons--2 {
+    cursor: pointer;
+}

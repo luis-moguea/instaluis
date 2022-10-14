@@ -7,10 +7,10 @@ data.map(el => {
     <div class="hero__main">
         <div class="hero__main--profile">
             <div class="hero__main--profile--img">
-                <img src="${el.profile_picture}" alt="">
+                <img class="hero__main--profile--img-1" src="${el.profile_picture}" alt="">
+                <p>${el.id}</p>
             </div>
             <div class="hero__main--profile--id">
-                <p>${el.id}</p>
                 <img src="${el.ellipsis_icon}" alt="">
             </div>
         </div>
