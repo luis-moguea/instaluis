@@ -1,38 +1,38 @@
 [
   {
     "id": "Cat.2004",
-    "profile_picture": "https://source.unsplash.com/random/50x50?sig=1",
+    "profile_picture": "https://source.unsplash.com/random/30x30?sig=1",
     "ellipsis_icon": "/images/svg-ellipsis.png",
     "location": "Huston, Texas - United States",
     "main_image": "https://source.unsplash.com/random/300x400?sig=4",
-    "likes_count": "14",
+    "likes_count": "14 likes",
     "random_comment": "Ohhhhh what a cat <3"
   },
   {
     "id": "Cat.132",
-    "profile_picture": "https://source.unsplash.com/random/50x50?sig=2",
+    "profile_picture": "https://source.unsplash.com/random/30x30?sig=2",
     "ellipsis_icon": "/images/svg-ellipsis.png",
     "location": "Arlington, Texas - United States",
     "main_image": "https://source.unsplash.com/random/300x400?sig=3",
-    "likes_count": "43",
-    "random_comment": "Ohhhhh what a cat <3"
+    "likes_count": "43 likes",
+    "random_comment": "Can I get your number"
   },
   {
     "id": "Cat.44",
-    "profile_picture": "https://source.unsplash.com/random/50x50?sig=5",
+    "profile_picture": "https://source.unsplash.com/random/30x30?sig=5",
     "ellipsis_icon": "/images/svg-ellipsis.png",
     "location": "Miami, Florida - United States",
     "main_image": "https://source.unsplash.com/random/300x400?sig=6",
-    "likes_count": "369",
-    "random_comment": "Ohhhhh what a cat <3"
+    "likes_count": "369 likes",
+    "random_comment": "prettyyy"
   },
   {
     "id": "Cat.689",
-    "profile_picture": "https://source.unsplash.com/random/50x50?sig=7",
+    "profile_picture": "https://source.unsplash.com/random/30x30?sig=7",
     "ellipsis_icon": "/images/svg-ellipsis.png",
     "location": "Orlando, Florida - United States",
     "main_image": "https://source.unsplash.com/random/300x400?sig=8",
-    "likes_count": "78",
-    "random_comment": "Ohhhhh what a cat <3"
+    "likes_count": "78 likes",
+    "random_comment": "awwwww"
   }
 ]

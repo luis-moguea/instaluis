@@ -8,10 +8,10 @@ data.map(el => {
         <div class="hero__main--profile">
             <div class="hero__main--profile--img">
                 <img class="hero__main--profile--img-1" src="${el.profile_picture}" alt="">
-                <p>${el.id}</p>
+                <p class="hero__main--profile--id-1">${el.id}</p>
             </div>
             <div class="hero__main--profile--id">
-                <img src="${el.ellipsis_icon}" alt="">
+                <img class="hero__main--profile--ellipsis" src="${el.ellipsis_icon}" alt="">
             </div>
         </div>
         <div class="hero__main--image">
@@ -20,15 +20,15 @@ data.map(el => {
         <div class="hero__main--icons">
             <div class="hero__main--icons--1">
                 <img src="/images/svg-heart-black.png" alt="">
-                <img src="/images/svg-comm.png" alt="">
-                <img src="/images/svg-share.png" alt="">
+                <img class="hero__main--icons--1-1" src="/images/svg-comm.png" alt="">
+                <img class="hero__main--icons--1-1" src="/images/svg-share.png" alt="">
             </div>
             <div class="hero__main--icons--2">
                 <img src="/images/svg-favorite.png" alt="">
             </div>
         </div>
         <div class="hero__main--comms">
-            <p>${el.likes_count}</p>
+            <p class="hero__main--comms-lk">${el.likes_count}</p>
             <p>${el.random_comment}</p>
         </div>
     </div>`;

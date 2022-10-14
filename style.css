@@ -16,12 +16,13 @@ body {
     border-color: #808080;
     margin-bottom: 15px;
     border-radius: 10px;
+    font-size: 14px;
 }
 
 .hero__main--profile {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 0.50em;
 }
 
 .hero__main--profile--img {
@@ -30,18 +31,45 @@ body {
 
 .hero__main--profile--img-1 {
     border-radius: 25px;
-    margin-right: 8px;
+    margin-right: 4px;
+    height: 40px;
+}
+
+.hero__main--profile--id-1 {
+    position: relative;
+    margin-top: 11px;
+    font-weight: bold;
+}
+
+.hero__main--profile--ellipsis {
+    position: relative;
+    margin-top: 7px;
+    width: 20px;
+}
+
+.hero__main--profile--img-1, .hero__main--profile--id-1, .hero__main--profile--ellipsis {
+    cursor: pointer;
 }
 
 .hero__main--icons {
     display: flex;
     justify-content: space-between;
-    padding: 0.50em 1em;
+    padding: 0.50em;
+    padding-bottom: 0;
 
 }
 
 .hero__main--comms {
-    padding: 1em;
+    padding: 0 0.50em;
+    line-height: 15px;
+}
+
+.hero__main--icons--1-1 {
+    margin-left: 10px;
+}
+
+.hero__main--comms-lk {
+    font-weight: bold;
 }
 
 .hero__main--icons--1, .hero__main--icons--2 {
