@@ -4,31 +4,31 @@ const container = document.querySelector("#item-list")
 
 data.map(el => {
     const element = /* html */`
-    <div class="hero__main">
-        <div class="hero__main--profile">
-            <div class="hero__main--profile--img">
-                <img class="hero__main--profile--img-1" src="${el.profile_picture}" alt="">
-                <p class="hero__main--profile--id-1">${el.id}</p>
+    <div class="main__cards">
+        <div class="main__cards--profile">
+            <div class="main__cards--profile-left">
+                <img class="main__cards--profile-img" src="${el.profile_picture}" alt="">
+                <p class="main__cards--profile-id">${el.id}</p>
             </div>
-            <div class="hero__main--profile--id">
-                <img class="hero__main--profile--ellipsis" src="${el.ellipsis_icon}" alt="">
+            <div class="main__cards--profile-right">
+                <img class="main__cards--profile-ellipsis" src="${el.ellipsis_icon}" alt="">
             </div>
         </div>
-        <div class="hero__main--image">
-            <img src="${el.main_image}" alt="">
+        <div class="main__image">
+            <img class="main__image--post" src="${el.main_image}" alt="">
         </div>
-        <div class="hero__main--icons">
-            <div class="hero__main--icons--1">
+        <div class="main__icons">
+            <div class="main__icons--left">
                 <img src="/images/svg-heart-black.png" alt="">
-                <img class="hero__main--icons--1-1" src="/images/svg-comm.png" alt="">
-                <img class="hero__main--icons--1-1" src="/images/svg-share.png" alt="">
+                <img class="main__icons-svg" src="/images/svg-comm.png" alt="">
+                <img class="main__icons-svg" src="/images/svg-share.png" alt="">
             </div>
-            <div class="hero__main--icons--2">
+            <div class="main__icons--right">
                 <img src="/images/svg-favorite.png" alt="">
             </div>
         </div>
-        <div class="hero__main--comms">
-            <p class="hero__main--comms-lk">${el.likes_count}</p>
+        <div class="main__comms">
+            <p class="main__comms--like">${el.likes_count}</p>
             <p>${el.random_comment}</p>
         </div>
     </div>`;

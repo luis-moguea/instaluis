@@ -6,52 +6,55 @@ body {
 
 }
 
-.hero {
-    align-items: center;
-    justify-content: center;
+.main {
+    width: 400px;
 }
 
-.hero__main {
+.main__cards {
     border: solid 1px;
-    border-color: #808080;
+    border-color:#ddd5f0;
     margin-bottom: 15px;
     border-radius: 10px;
     font-size: 14px;
 }
 
-.hero__main--profile {
+.main__cards--profile {
     display: flex;
     justify-content: space-between;
     padding: 0.50em;
 }
 
-.hero__main--profile--img {
+.main__image--post {
+    width: 100%;
+}
+
+.main__cards--profile-left {
     display: flex;
 }
 
-.hero__main--profile--img-1 {
+.main__cards--profile-img {
     border-radius: 25px;
     margin-right: 4px;
     height: 40px;
 }
 
-.hero__main--profile--id-1 {
+.main__cards--profile-id {
     position: relative;
     margin-top: 11px;
     font-weight: bold;
 }
 
-.hero__main--profile--ellipsis {
+.main__cards--profile-ellipsis {
     position: relative;
     margin-top: 7px;
     width: 20px;
 }
 
-.hero__main--profile--img-1, .hero__main--profile--id-1, .hero__main--profile--ellipsis {
+.main__cards--profile-img, .main__cards--profile-id, .main__cards--profile-ellipsis {
     cursor: pointer;
 }
 
-.hero__main--icons {
+.main__icons {
     display: flex;
     justify-content: space-between;
     padding: 0.50em;
@@ -59,19 +62,19 @@ body {
 
 }
 
-.hero__main--comms {
+.main__comms {
     padding: 0 0.50em;
     line-height: 15px;
 }
 
-.hero__main--icons--1-1 {
+.main__icons-svg {
     margin-left: 10px;
 }
 
-.hero__main--comms-lk {
+.main__comms--like {
     font-weight: bold;
 }
 
-.hero__main--icons--1, .hero__main--icons--2 {
+.main__icons--left, .main__icons--right {
     cursor: pointer;
 }
