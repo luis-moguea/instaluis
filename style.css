@@ -3,10 +3,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 
-.main {
+.main, .main__add {
     width: 400px;
 }
 
@@ -15,15 +16,19 @@ body {
     border-color:#ddd5f0;
     margin-bottom: 15px;
     border-radius: 10px;
-    font-size: 14px;
 }
 
 .main__cards--profile {
     display: flex;
     justify-content: space-between;
-    padding: 0.50em;
+    padding: 0.75em;
+    padding-bottom: 0;
 }
 
+.main__image {
+    padding-top: 0;
+    margin-top: 0;
+}
 .main__image--post {
     width: 100%;
 }
@@ -35,18 +40,18 @@ body {
 .main__cards--profile-img {
     border-radius: 25px;
     margin-right: 4px;
-    height: 40px;
+    height: 30px;
 }
 
 .main__cards--profile-id {
     position: relative;
-    margin-top: 11px;
+    margin-top: 7px;
     font-weight: bold;
 }
 
 .main__cards--profile-ellipsis {
     position: relative;
-    margin-top: 7px;
+    margin-top: 5px;
     width: 20px;
 }
 
@@ -57,13 +62,13 @@ body {
 .main__icons {
     display: flex;
     justify-content: space-between;
-    padding: 0.50em;
+    padding: 0.75em;
     padding-bottom: 0;
 
 }
 
 .main__comms {
-    padding: 0 0.50em;
+    padding: 0 0.75em;
     line-height: 15px;
 }
 
@@ -76,5 +81,73 @@ body {
 }
 
 .main__icons--left, .main__icons--right {
+    cursor: pointer;
+}
+
+.main__add {
+    border-radius: 10px;
+    border: solid #ddd5f0 1px;
+    margin-bottom: 15px;
+    line-height: 6px;
+}
+
+.main__add--profile-img-hk {
+    width: 30px;
+    border-radius: 20px;
+}
+
+.main__add__image--hk {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main__add__icons, .main__add__info, .main__add__comms {
+    padding: 0.75em;
+}
+
+.main__add--location {
+    padding-left: 1.8em;
+    font-size: 8px;
+}
+
+.main__add__icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding-bottom: 0;
+}
+
+.main__add--profile {
+    display: flex;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.main__add--profile-id {
+    font-weight: bold;
+    position: relative;
+    margin-top: 12px;
+    margin-left: 4px;
+}
+
+.main__add__likes {
+    padding: 0;
+    margin: 0;
+}
+
+.main__add__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.75;
+    margin: 0;
+}
+
+.main__add__likes--count {
+    font-weight: bold;
+    padding: 0 0.75em;
+}
+
+.main__add__icons--left, .main__add__icons--right {
     cursor: pointer;
 }
