@@ -44,8 +44,8 @@ data.map(el => {
             <div class="main__add__icons">
                 <div class="main__add__icons--left">
                     <img src="/images/heart.svg" alt="svg-icon">
-                    <img src="/images/comm.svg" alt="svg-icon">
-                    <img src="/images/share.svg" alt="svg-icon">
+                    <img class="main__add__icons--lf" src="/images/comm.svg" alt="svg-icon">
+                    <img class="main__add__icons--lf" src="/images/share.svg" alt="svg-icon">
                 </div>
                 <div class="main__add__icons--right">
                     <img src="/images/favorite.svg" alt="svg-icon">
