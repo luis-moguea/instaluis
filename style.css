@@ -109,6 +109,7 @@ body {
 .main__add--location {
     padding-left: 1.8em;
     font-size: 8px;
+    font-weight: bold;
 }
 
 .main__add__icons {
